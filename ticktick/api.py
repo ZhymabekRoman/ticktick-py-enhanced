@@ -91,7 +91,7 @@ class TickTickClient:
             password: TickTick Password
 
         """
-        url = self.BASE_URL + 'user/signin'
+        url = self.BASE_URL + 'user/signon'
         user_info = {
             'username': username,
             'password': password
